@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/principal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipal">
+
+    <ImageView
+        android:id="@+id/imageView24"
+        android:layout_width="67dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imgcima" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="176dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="124dp"
+        android:gravity="center"
+        android:text="Welcom !"
+        android:textColor="#984A4A"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="274dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="256dp"
+        android:gravity="center"
+        android:text="Compra e Vendas Criptomoedas!"
+        android:textColor="#07530A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView25"
+        android:layout_width="59dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="84dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView42"
+        app:srcCompat="@drawable/capturar" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="234dp"
+        android:layout_height="74dp"
+        android:gravity="center"
+        android:text="Armazenamento Seguro"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView25" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="156dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="600dp"
+        android:background="@color/white"
+        android:text="Log in"
+        android:onClick="proximatela"
+        android:textColor="#130505"
+        android:textSize="24sp"
+        app:backgroundTint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnRegistro"
+        android:layout_width="160dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="604dp"
+        android:background="@color/black"
+        android:onClick="pressionaBotao"
+        android:text="REGISTER"
+        android:textSize="24sp"
+        app:backgroundTint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
